@@ -358,5 +358,5 @@ The HMM approach demonstrates that probabilistic temporal modelling is highly ef
 
 ---
 
-**Project Team:** Chol Daniel Deng 
-**Course:** Machine Learning Technique One
+**Project Team:** [Chol Daniel Deng] 
+**Course:** [Machine Learning Technique One]
