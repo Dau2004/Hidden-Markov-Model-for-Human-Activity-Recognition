@@ -5,7 +5,7 @@
 
 ## 1. Background and Motivation
 
-Human activity recognition (HAR) has become increasingly important in modern healthcare and fitness applications. Our use case focuses on **elderly fall detection and activity monitoring systems**. By accurately recognizing activities such as walking, standing, jumping, and remaining still, we can detect abnormal patterns that may indicate falls, reduced mobility, or health deterioration. Traditional monitoring systems require expensive specialized equipment, but smartphones contain accelerometers and gyroscopes that can capture motion data continuously. This project implements a Hidden Markov Model (HMM) to classify human activities from smartphone sensor data, providing a cost-effective solution for continuous activity monitoring that can alert caregivers when unusual patterns are detected, potentially preventing serious injuries from falls or enabling early intervention for mobility issues.
+Human activity recognition (HAR) has become increasingly important in modern healthcare and fitness applications. Our use case focuses on **elderly fall detection and activity monitoring systems**. By accurately recognising activities such as walking, standing, jumping, and remaining still, we can detect abnormal patterns that may indicate falls, reduced mobility, or health deterioration. Traditional monitoring systems require expensive specialised equipment, but smartphones contain accelerometers and gyroscopes that can capture motion data continuously. This project implements a Hidden Markov Model (HMM) to classify human activities from smartphone sensor data, providing a cost-effective solution for continuous activity monitoring that can alert caregivers when unusual patterns are detected, potentially preventing serious injuries from falls or enabling early intervention for mobility issues.
 
 ---
 
@@ -241,12 +241,12 @@ The learned transition matrix reflects realistic human behavior:
 
 3. **Rare Direct Transitions:**
    - Still ↔ Jumping: Less common (usually stand first)
-   - Low probabilities match real behavior
+   - Low probabilities match real behaviour
 
 ### 5.3 Impact of Sensor Noise and Sampling Rate
 
 **Sensor Noise:**
-- Feature normalization (StandardScaler) reduced noise impact
+- Feature normalisation (StandardScaler) reduced noise impact
 - Sliding window averaging smoothed sensor fluctuations
 - HMM's probabilistic nature handles uncertainty well
 - Still activity unaffected (minimal motion)
@@ -255,7 +255,7 @@ The learned transition matrix reflects realistic human behavior:
 **Sampling Rate:**
 - Window size (50 samples) captured sufficient temporal dynamics
 - 50% overlap provided smooth transitions between windows
-- Higher sampling rate would improve rapid motion detection
+- A higher sampling rate would improve rapid motion detection
 - Current rate adequate for 93% accuracy
 
 **Noise Mitigation Strategies:**
@@ -263,7 +263,7 @@ The learned transition matrix reflects realistic human behavior:
 - Frequency-domain features captured periodic patterns
 - Multiple features per axis provided redundancy
 
-### 5.4 Model Generalization
+### 5.4 Model Generalisation
 
 The model demonstrates **excellent generalization** to unseen data:
 
@@ -323,8 +323,8 @@ This project successfully implemented a Hidden Markov Model for human activity r
 **Key Achievements:**
 1. ✓ Perfect classification of Still activity (100% F1-score)
 2. ✓ High performance across all activities (>91% F1-score)
-3. ✓ Excellent generalization to unseen sessions
-4. ✓ Realistic transition probabilities matching human behavior
+3. ✓ Excellent generalisation to unseen sessions
+4. ✓ Realistic transition probabilities matching human behaviour
 5. ✓ Robust to sensor noise and sampling variations
 
 **Practical Applications:**
@@ -335,14 +335,14 @@ This project successfully implemented a Hidden Markov Model for human activity r
 
 **Limitations:**
 - Limited to 4 basic activities
-- Single participant data (generalization to new users unknown)
+- Single participant data (generalisation to new users unknown)
 - Confusion between similar activities (walking/jumping)
 - Requires phone placement consistency
 
 **Future Directions:**
-The model provides a strong foundation for real-world deployment. With additional data from diverse participants, enhanced features, and model refinements, accuracy could reach 95-98%. Integration with additional sensors and deep learning approaches could enable recognition of more complex activities and improve robustness to varying conditions.
+The model provides a strong foundation for real-world deployment. With additional data from diverse participants, enhanced features, and model refinements, accuracy could reach 95-98%. Integration with extra sensors and deep learning approaches could enable recognition of more complex activities and improve robustness to varying conditions.
 
-The HMM approach demonstrates that probabilistic temporal modeling is highly effective for activity recognition, providing both accurate predictions and interpretable transition patterns that reflect realistic human behavior. This makes it particularly suitable for healthcare applications where understanding activity sequences is as important as classification accuracy.
+The HMM approach demonstrates that probabilistic temporal modelling is highly effective for activity recognition, providing both accurate predictions and interpretable transition patterns that reflect realistic human behaviour. This makes it particularly suitable for healthcare applications where understanding activity sequences is as important as classification accuracy.
 
 ---
 
@@ -358,5 +358,5 @@ The HMM approach demonstrates that probabilistic temporal modeling is highly eff
 
 ---
 
-**Project Team:** [Chol Daniel Deng]  
-**Course:** [Machine Learning Technique One]
+**Project Team:** Chol Daniel Deng 
+**Course:** Machine Learning Technique One
