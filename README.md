@@ -20,7 +20,7 @@ Data was collected using the **Sensor Logger** mobile application on smartphones
 | **Standing** | 12 | Phone held steady at waist level |
 | **Walking** | 13 | Consistent walking pace |
 | **Jumping** | 13 | Continuous vertical jumps |
-| **Still** | 12 seconds | Phone placed on flat surface |
+| **Still** | 12 | Phone placed on flat surface |
 
 **Collection Details:**
 - **Total Sessions:** 50 sessions across all activities
