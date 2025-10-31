@@ -15,12 +15,12 @@ Human activity recognition (HAR) has become increasingly important in modern hea
 
 Data was collected using the **Sensor Logger** mobile application on smartphones. Four distinct activities were recorded:
 
-| Activity | Duration | Description |
+| Activity | Total Session | Description |
 |----------|----------|-------------|
-| **Standing** | 5-10 seconds | Phone held steady at waist level |
-| **Walking** | 5-10 seconds | Consistent walking pace |
-| **Jumping** | 5-10 seconds | Continuous vertical jumps |
-| **Still** | 5-10 seconds | Phone placed on flat surface |
+| **Standing** | 12 | Phone held steady at waist level |
+| **Walking** | 13 | Consistent walking pace |
+| **Jumping** | 13 | Continuous vertical jumps |
+| **Still** | 12 seconds | Phone placed on flat surface |
 
 **Collection Details:**
 - **Total Sessions:** 50 sessions across all activities
@@ -36,7 +36,7 @@ Data was collected using the **Sensor Logger** mobile application on smartphones
 **Step 1: Data Cleaning**
 - Removed duplicate timestamps
 - Handled missing values through interpolation
-- Synchronized accelerometer and gyroscope readings
+- Synchronised accelerometer and gyroscope readings
 
 **Step 2: Feature Extraction**
 
